@@ -12,6 +12,7 @@ Change the quasar.conf.js
       'console-logs' //<< add this line with quasar.conf.js
  ],
 
+
 Then you can use it like this.
 
 ```
