@@ -1,7 +1,7 @@
 # Quasar global function with boot
 Global log method which is using the local storage and better for debugging purpose
 
-###Change the quasar.conf.js
+#### Change the quasar.conf.js
 
 ```
  boot: [
@@ -13,7 +13,7 @@ Global log method which is using the local storage and better for debugging purp
  ]
  ```
 
-###Then you can use it like this from any vue page.
+#### Then you can use it like this from any vue page.
 
 ```
 this.$log('your log message')
