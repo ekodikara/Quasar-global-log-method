@@ -11,7 +11,7 @@ Change the quasar.conf.js
       'notify-defaults',
       'console-logs' //<< add this line with quasar.conf.js
  ],
-
+`
 
 Then you can use it like this.
 
