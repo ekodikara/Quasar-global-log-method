@@ -1,7 +1,7 @@
 # Quasar global function with boot
 Global log method which is using the local storage and better for debugging purpose
 
-Change the quasar.conf.js
+####Change the quasar.conf.js
 
 ```
  boot: [
@@ -10,10 +10,10 @@ Change the quasar.conf.js
       'axios',
       'notify-defaults',
       'console-logs' //<< add this line with quasar.conf.js
- ],
-`
+ ]
+ ```
 
-Then you can use it like this.
+####Then you can use it like this from any vue page.
 
 ```
 this.$log('your log message')
