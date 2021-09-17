@@ -3,7 +3,8 @@ Global log method which is using the local storage and better for debugging purp
 
 Change the quasar.conf.js
 
-``` boot: [
+```
+ boot: [
       'composition-api',
       'i18n',
       'axios',
