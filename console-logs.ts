@@ -25,6 +25,7 @@ import Vue from 'vue';
  */
 const log = (message: any) => {
     if (localStorage.getItem('logs') === 'true') {
+        message = JSON.stringify(message,null, 1);
         /**
          * formatting colors
          */
